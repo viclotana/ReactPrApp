@@ -5,7 +5,7 @@ class ProjectItem extends Component {
     //console.log(this.props);
     return (
       <li className="Projects">
-          
+          {this.props.project.title} - {this.props.project.category}
         {this.props.test}
       </li>
     );

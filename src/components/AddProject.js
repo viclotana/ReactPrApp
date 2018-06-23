@@ -26,6 +26,7 @@ class AddProjects extends Component {
             <label>Category</label><br />
             <select ref="category">{categoryOptions}</select>
           </div>
+          <input type="submit" value="submit" />
         </form>    
       </div>
     );

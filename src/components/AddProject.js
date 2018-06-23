@@ -6,8 +6,9 @@ class AddProjects extends Component {
         categories: ['Web Design','Web Development', 'Mobile Development']
     }
 
-    handleSubmit(){
+    handleSubmit(e){
         console.log('submitted');
+        e.preventDefault();
     }
   render() {
     let categoryOptions = this.props.categories.map(category => {

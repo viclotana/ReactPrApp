@@ -53,7 +53,7 @@ componentWillMount(){
   this.getProjects();
   this.getTodos();
 }
-componentDidlMount(){
+componentDidMount(){
   this.getTodos();
 }
 
